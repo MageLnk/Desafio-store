@@ -67,3 +67,7 @@ SELECT * FROM example_table ORDER BY nombre ASC;
 -- Selecciona los tres primeros de la tabla ordenados alfabéticamente.
 
 SELECT * FROM example_table ORDER BY nombre ASC LIMIT 3;
+
+-- Borrar base de datos
+
+DROP DATABASE example;
