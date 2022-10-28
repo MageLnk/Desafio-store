@@ -59,3 +59,11 @@ SELECT * FROM example_table;
 -- Ver usuarios específicos
 
 SELECT * FROM example_table WHERE nombre = 'Diego' OR nombre = 'Juan';
+
+-- Selecciona los nombres y tráelos ordenados alfabéticamente.
+
+SELECT * FROM example_table ORDER BY nombre ASC;
+
+-- Selecciona los tres primeros de la tabla ordenados alfabéticamente.
+
+SELECT * FROM example_table ORDER BY nombre ASC LIMIT 3;
